@@ -1,0 +1,150 @@
+/* <!-- google font --> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* body style */
+body{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  width:90vw;
+  height:100vh;
+  background-color: white;
+  margin: 0;
+box-sizing: border-box;
+
+}
+
+
+/* header style */
+
+header{
+    width:100%;
+    height: 36%;
+  background-image: url("/new-year-new-me/images/banner/banner3.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: right;
+ color:white;
+ position: relative;
+ align-items: center;
+ padding:30px 80px 40px ;
+}
+
+.banner{
+    position: absolute;
+    right: 40px;
+ width: 40%;
+ top: auto;
+ bottom: auto;
+ padding: 0;
+ margin-bottom: 20px;
+}
+
+
+.header_p{
+font-size: 12px;
+}
+
+.btn_contact_us , .btn_call_now{
+    padding: 12px 28px;
+    border:0;
+    border-radius: 10px;
+    color: rgb(45, 95, 244);
+}
+
+/* main tag styles start */
+
+/* main{
+
+} */
+
+.section1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:40px 80px;
+    padding: 0;
+    width: 100%;
+    border:2px solid red;
+
+}
+
+
+.section1_content_box >p,a{
+    text-align: left;
+color: grey;
+text-decoration: none;
+}
+
+
+/* section2 my plans style form here */
+
+.section2{
+    width: 100%;
+    border: green 2px solid;
+    margin:40px 80px;
+    padding: 0;
+}
+
+.my_plans{
+text-align: center;
+}
+
+.section2_content_box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.content {
+    text-align: center;
+}
+.content .p_tags{
+    color: grey;
+}
+
+
+/* section3 style form here */
+.section3_hand{
+width: 90%;
+height: 100%;
+margin: 40px 80px;
+border:2px solid navy;
+background-image: url("/new-year-new-me/images/watch.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position:center;
+
+/* background-image: url("/new-year-new-me/images/gradient1.png"); */
+
+/* background:linear-gradient(to right,#005facb3,#005fac00); */
+
+}
+
+.section3_hand > img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.section3_title_h3{
+    color:white
+} 
+
+footer{
+    width: 100vw;
+    height: 500px;
+    margin: 0;
+    background-color: black;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column{
+    border:2px solid green;
+width:50%
+
+}
